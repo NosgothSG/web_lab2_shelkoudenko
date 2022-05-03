@@ -11,16 +11,16 @@
     <title>Social Network</title>
   </head>
   <body>
-    <section class="container">
+    <section class="page container">
       <header class="top">
         <nav class="container">
-          <a href=""><div class="logo"></div></a>
-          <div class="menu common-text bold-text">Настройки</div>
+          <a href=""><div class="logo column-left"></div></a>
+          <div class="menu column-right">Настройки</div>
         </nav>
       </header>
-      <main class="container">
-        <aside>
-          <ul class="common-text bold-text">
+      <section class="container">
+        <aside class="column-left">
+          <ul>
             <li>Профиль</li>
             <li>Друзья</li>
             <li>Фотографии</li>
@@ -31,14 +31,94 @@
             <li>Новости</li>
           </ul>
         </aside>
-        <section class="content">
+        <section class="content column-right">
           <header class="content">
-            <div class="name caption-text bold-text">Имя Фамилия</div>
-            <div class="net-status caption-text bold-text">Сетевой статус</div>
+            <div class="name column-left">Имя Фамилия</div>
+            <div class="net-status column-right">Сетевой статус</div>
           </header>
+          <main>
+            <section class="section user">
+              <div class="main-left">
+                <div class="photo">
+                  <span>Место для фото</span>
+                </div>
+                <div class="chat">
+                  <div>Написать сообщение</div>
+                  <div>Добавить в друзья</div>
+                </div>
+              </div>
+              <div class="main-right">
+                <header class="caption status">Статус</header>
+                <div class="info">
+                  <p>Город:</p>
+                  <p>День рождения:</p>
+                  <p>Семейное положение:</p>
+                  <p>Показать подробную информацию</p>
+                </div>
+                <section class="block">
+                  <header class="white">Фотографии</header>
+                  <div class="set photos">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </section>
+              </div>
+            </section>
+            <section class="section wall">
+              <div class="main-left">
+                <span class="subscribers">Количество подписчиков</span>
+                <header class="caption news">Новости</header>
+                <section class="friends">
+                  <header class="white">Друзья</header>
+                  <div class="set avatars">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </section>
+                <section class="friends">
+                  <header class="white">Друзья онлайн</header>
+                  <div class="set avatars">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </section>
+              </div>
+              <div class="main-right">
+                <section class="block notes">
+                  <header class="white">Количество записей</header>
+                  <section class="post">
+                    <div class="avatar"></div>
+                    <div class="note">
+                      <header class="author">Имя Фамилия</header>
+                      <section class="text">Пост пост пост</section>
+                    </div>
+                  </section>
+                  <section class="post">
+                    <div class="avatar"></div>
+                    <div class="note">
+                      <header class="author">Имя Фамилия</header>
+                      <section class="text">Пост пост пост</section>
+                    </div>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </main>
         </section>
-      </main>
-      <footer></footer>
+      </section>
     </section>
   </body>
 </html>
