@@ -8,12 +8,12 @@ body {
   background-color: rgba(196, 196, 196, 0.35);
   color: #000;
   font-family: "Open Sans", arial, sans-serif;
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 400;
 }
 
 ul {
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 700;
   list-style: none;
 }
@@ -51,7 +51,7 @@ header.content {
 }
 header.content .name,
 header.content .net-status {
-  font-size: 24px;
+  font-size: min(2.28vw, 24px);
   font-weight: 700;
 }
 header.caption {
@@ -60,15 +60,15 @@ header.caption {
   border: none;
 }
 header.caption.status {
-  font-size: 24px;
+  font-size: min(2.28vw, 24px);
   font-weight: 700;
   line-height: 40px;
   margin-bottom: 19px;
 }
 header.caption.news {
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 700;
-  width: 195px;
+  width: 65.5%;
   line-height: 25px;
   margin-bottom: 12px;
 }
@@ -108,7 +108,7 @@ section.friends {
   margin-bottom: 16px;
 }
 section.friends header {
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 700;
   border: none;
   line-height: 35px;
@@ -118,7 +118,7 @@ section.block {
   border: 1px solid #000;
 }
 section.text {
-  font-size: 13px;
+  font-size: min(1.24vw, 13px);
   font-weight: 400;
   height: 115px;
   line-height: 115px;
@@ -142,7 +142,7 @@ section.text {
 }
 
 .menu {
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 700;
   display: block;
   width: 150px;
@@ -194,7 +194,7 @@ aside li {
 
 .photo {
   background-color: #c4c4c4;
-  font-size: 24px;
+  font-size: min(2.28vw, 24px);
   font-weight: 700;
   position: relative;
   width: 100%;
@@ -252,7 +252,7 @@ aside li {
 }
 .chat div {
   background-color: #c4c4c4;
-  font-size: 22px;
+  font-size: min(2.1vw, 22px);
   font-weight: 700;
   width: 50%;
   text-align: center;
@@ -270,7 +270,7 @@ aside li {
 }
 
 .subscribers {
-  font-size: 18px;
+  font-size: min(1.72vw, 18px);
   font-weight: 700;
   padding-bottom: 3px;
   text-align: center;
